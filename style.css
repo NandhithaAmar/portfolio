@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.content{
+    background-image: linear-gradient(145deg,#540eeb,#ff1934);
+    height: 100vh;
+}
+.card{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 90% !important; 
+    background-color: white;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.img-container{
+    position: relative;
+    text-align: center;
+    margin-top: -75px;
+}
+.img{
+    width: 110px;
+    border-radius: 50%;
+    border: 7px solid #9431f1;
+    box-shadow: 2px 2px 30px #9431f1;
+}
+.card-title{
+    color: #9431f1;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: 'roboto', sans-serif;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.num-row{
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+.num-row .col-3{
+    padding: 5px;
+}
+.numbers{
+    color: rgb(86, 86, 86);
+}
+.img-row{
+    display: block;
+}
+.img-row img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 15px;
+}
+.img-row img:hover{
+    cursor: pointer;
+}
+.fb,.be{
+    box-shadow: 1px 1px 10px #2247ff;
+}
+.insta{
+    box-shadow: 1px 1px 10px #e6650f;
+}
+.twit{
+    box-shadow: 1px 1px 10px #6b84ff;
+}
+.github,.code{
+    box-shadow: 1px 1px 10px #252525;
+}
+.link{
+    box-shadow: 1px 1px 10px #ff5f2e;
+}
+.btn{
+    width: 100%;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding-top: 13px;
+}
+.btn h6{
+    font-size: 1.1rem !important;
+    letter-spacing: .5px;
+}
+.btn1{
+    background-image: linear-gradient(to right,#627cff,#002aff);
+    box-shadow: -1px 1px 10px rgba(24, 62, 255, 0.8);
+}
+.btn1:active{
+    background-image: linear-gradient(to left,#627cff,#002aff) !important;
+    box-shadow: -1px 1px 10px rgba(24, 62, 255, 0.8);
+}
+.btn2{
+    background-image: linear-gradient(to right,#ff002f,#ff6a5f);
+    box-shadow: -1px 1px 10px rgb(255, 40, 25,0.8);
+}
+.btn2:active{
+    background-image: linear-gradient(to left,#ff002f,#ff6a5f) !important;
+    box-shadow: -1px 1px 10px rgb(255, 40, 25,0.8);
+}
+
+
+/* card */
+@media  screen and (min-width:800px) {
+    .card{
+        width:70% !important;
+    }
+    .btn{
+        width:90% !important;
+    }
+}
+@media  screen and (min-width:1020px) {
+    .card{
+        width:55% !important;
+    }
+    .btn{
+        width:85% !important;
+    }
+}
+@media  screen and (min-width:1200px) {
+    .card{
+        width:45% !important;
+    }
+    .btn{
+        width:85% !important;
+    }
+}
+/* txt */
+@media screen and (max-width:450px){
+    .txt{
+        font-size: .8rem;
+    }
+    .numbers{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:373px){
+    .txt{
+        font-size: .7rem;
+    }
+    .numbers{
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:340px){
+    .txt{
+        font-size: .65rem;
+    }
+    .numbers{
+        font-size: 1rem;
+    }
+}
